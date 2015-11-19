@@ -1,0 +1,52 @@
+************************************************************************************************
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+************************************************************************************************
+
+The diff program helped me see diffs between the mentioned files so, that it showed me the different rows.
+The new rows begined with +++, the old rows begined with ---. Obviously the bugs are in these kind of rows. 
+
+*********************************************************************************************************************
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+*********************************************************************************************************************
+
+When I can see the changes of a file, I can learn from it. I can see my common mistakes. 
+If I make a mistake, or I go on a completely wrong way to implement a feature I can go back,
+and start it again, from that point, when everything was fine, and my program worked. 
+
+*************************************************************************************
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+*************************************************************************************
+
+Pros: 
+	- I can commit when I want, so there will not be too much commits.
+	- The commits can be logical units of developing, it is easier to roll back,
+	  and delete one feature from our program. 
+
+Cons: 
+	- I have to decide about, when is the time to make a commit.
+	- Maybe, I forget commiting, and I lose information because of this.  
+
+****************************************************************************************************
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file separately?
+****************************************************************************************************
+
+I think it is because of that, that the Git is mainly for programmers, and programs consists of multiple
+files. The files together mean something bigger, something whole thing. 
+
+*******************************************************************************
+How can you use the commands git log and git diff to view the history of files?
+*******************************************************************************
+
+git log command lists the commits, with id
+with git diff command we can see the difference between the two commits
+
+****************************************************************************************************
+How might using version control make you more confident to make changes that could break something?
+****************************************************************************************************
+balbla
+
+********************************************************************************
+Now that you have your workspace set up, what do you want to try using Git for?
+********************************************************************************
